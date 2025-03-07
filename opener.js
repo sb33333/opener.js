@@ -77,6 +77,7 @@
 			set t(t) { this._t = t; },
 			set onclose(handler) { this._oncloseHandler = handler; },
 			set onload(handler) { this._onloadHandler = handler; },
+			set parentContext(parentContext) { this._parentContext = parentContext },
 			set predicate(predicateFunction) { this._predicate = predicateFunction; },
 			
 			load() {
